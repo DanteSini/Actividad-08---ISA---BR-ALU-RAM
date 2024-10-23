@@ -1,0 +1,24 @@
+# Suma
+SUMA R1, R2, R3   # R3 = R1 + R2
+SUMA R4, R5, R6   # R6 = R4 + R5
+SUMA R7, R8, R9   # R9 = R7 + R8
+
+# Resta
+RESTA R1, R2, R3  # R3 = R1 - R2
+RESTA R4, R5, R6  # R6 = R4 - R5
+RESTA R7, R8, R9  # R9 = R7 - R8
+
+# AND
+AND R1, R2, R3    # R3 = R1 & R2
+AND R4, R5, R6    # R6 = R4 & R5
+AND R7, R8, R9    # R9 = R7 & R8
+
+# OR
+OR R1, R2, R3     # R3 = R1 | R2
+OR R4, R5, R6     # R6 = R4 | R5
+OR R7, R8, R9     # R9 = R7 | R8
+
+# Set on Less Than
+MENORQ R1, R2, R3 # R3 = (R1 < R2) ? 1 : 0
+MENORQ R4, R5, R6 # R6 = (R4 < R5) ? 1 : 0
+MENORQ R7, R8, R9 # R9 = (R7 < R8) ? 1 : 0
